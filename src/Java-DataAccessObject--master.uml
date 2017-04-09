@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="564.2708333333333" y="403.0">model.dao.services.UserService</node>
+    <node x="87.24999999999994" y="191.0">model.dao.interfaces.DAOAdminService</node>
+    <node x="633.25" y="201.5">model.dao.services.AbstractService</node>
+    <node x="112.75" y="971.0">model.dao.entity.Client</node>
+    <node x="408.49999999999994" y="594.0">model.dao.daofactory.DataSourceFactory</node>
+    <node x="0.0" y="0.0">model.dao.daofactory.DAOFactory</node>
+    <node x="926.0" y="224.0">model.dao.interfaces.DAOUserService</node>
+    <node x="6.75" y="971.0">model.dao.entity.Admin</node>
+    <node x="747.5" y="33.5">model.dao.interfaces.DAOAbstractService</node>
+    <node x="0.0" y="803.0">model.dao.entity.User</node>
+    <node x="848.25" y="414.0">model.dao.services.OrderService</node>
+    <node x="248.0" y="803.0">model.dao.entity.Drink</node>
+    <node x="656.0" y="803.0">model.dao.entity.Order</node>
+    <node x="205.27083333333326" y="359.0">model.dao.services.AdminService</node>
+    <node x="348.24999999999994" y="213.0">model.dao.interfaces.DAOAbtractUser</node>
+    <node x="452.0" y="803.0">model.dao.entity.Ingredient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.dao.services.UserService" target="model.dao.interfaces.DAOAbtractUser">
+      <point x="-61.5" y="-48.5" />
+      <point x="625.7708333333333" y="329.0" />
+      <point x="481.74999999999994" y="329.0" />
+      <point x="44.5" y="37.0" />
+    </edge>
+    <edge source="model.dao.entity.Client" target="model.dao.entity.User">
+      <point x="0.0" y="-15.0" />
+      <point x="50.75" y="59.0" />
+    </edge>
+    <edge source="model.dao.services.OrderService" target="model.dao.services.AbstractService">
+      <point x="-58.25" y="-37.5" />
+      <point x="906.5" y="339.0" />
+      <point x="855.75" y="339.0" />
+      <point x="89.0" y="48.5" />
+    </edge>
+    <edge source="model.dao.daofactory.DataSourceFactory" target="model.dao.daofactory.DAOFactory">
+      <point x="-105.375" y="-82.0" />
+      <point x="443.62499999999994" y="574.0" />
+      <point x="76.74999999999994" y="574.0" />
+      <point x="-76.75" y="70.5" />
+    </edge>
+    <edge source="model.dao.services.AdminService" target="model.dao.services.AbstractService">
+      <point x="113.0" y="-92.5" />
+      <point x="487.77083333333326" y="339.0" />
+      <point x="677.75" y="339.0" />
+      <point x="-89.0" y="48.5" />
+    </edge>
+    <edge source="model.dao.services.UserService" target="model.dao.services.AbstractService">
+      <point x="61.5" y="-48.5" />
+      <point x="748.7708333333333" y="339.0" />
+      <point x="766.75" y="339.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="model.dao.services.AdminService" target="model.dao.interfaces.DAOAbtractUser">
+      <point x="0.0" y="-92.5" />
+      <point x="374.77083333333326" y="339.0" />
+      <point x="392.74999999999994" y="339.0" />
+      <point x="-44.5" y="37.0" />
+    </edge>
+    <edge source="model.dao.services.AbstractService" target="model.dao.interfaces.DAOAbstractService">
+      <point x="66.75" y="-48.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="model.dao.services.AdminService" target="model.dao.interfaces.DAOAdminService">
+      <point x="-113.0" y="-92.5" />
+      <point x="261.77083333333326" y="339.0" />
+      <point x="207.74999999999994" y="339.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="model.dao.entity.Admin" target="model.dao.entity.User">
+      <point x="0.0" y="-15.0" />
+      <point x="-50.75" y="59.0" />
+    </edge>
+    <edge source="model.dao.services.OrderService" target="model.dao.interfaces.DAOUserService">
+      <point x="58.25" y="-37.5" />
+      <point x="0.0" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8973555337904016" x="560.0" y="864.22025758568" />
+  <SelectedNodes>
+    <node>model.dao.entity.User</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
